@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    color: yellow;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-right: 1em;
+    margin-left: 1em;
+    text-decoration: none;
+    color: white  ;
+}
+button{
+    background-color: yellow;
+    color: black;
+    padding: 1em 2em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.main{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.information h1, p , .btn{
+    padding-bottom: 0.5em;
+}
+.information h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+.prestations{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.prestations .card p{
+    color: rgb(0, 128, 255);
+}
+.prestations .card h1{
+    color: rgb(0, 128, 255);
+}
+
+.card{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em;
+    border-radius: 20px;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7em;
+    background: yellow;
+    padding: 5em 1em;
+    color: black;
+}
+h2{
+    margin-top: 3em;
+    text-align: center;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 4em;
+    margin-top: 4em;
+}
+.testimonial .test img{
+    width: 250px;
+    height: 250px;
+}
+span{
+    color: yellow;text-decoration: underline;
+}
+.test img, q, span{
+           padding: 0.5em;
+}
+.contact{
+    /* on note toujour background-color pour vusualiser ou on travaille*/
+    min-height: 80vh;
+}
+
+.contact h1{
+    text-align: center;
+    padding-top: 5em;
+}
+
+footer{
+    /* vous dever savoir que l'ecran est 100vh donc je veux mettre 20 pour le footer et 80 pour Contact */
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+}
+
+.btn-haut{
+    background-color: yellow;
+    color: black;
+    padding: 0.7em 2em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.social{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4em;
+} 
+.social .fab{
+    font-size: 80px;
+}
